@@ -16,7 +16,21 @@ MLTrader is an innovative automated trading bot that leverages the power of mach
 - An Alpaca brokerage account for trading execution.
 - CUDA-compatible GPU for running FinBERT model (optional but recommended for performance).
 
+
+### Configuration:
+Before running MLTrader, configure the following settings in your project:
+-Alpaca API Keys: Set your Alpaca API key and secret in the ALPACA_CREDS dictionary.
+-FinBERT Model: The project uses ProsusAI/finbert for sentiment analysis. Ensure you have internet access for the initial download of the model.
+
+### Usage
+Sentiment Analysis
+  The finbert_utils module is responsible for processing financial news headlines to estimate their sentiment. 
+  The sentiment analysis function estimate_sentiment utilizes the FinBERT model to categorize sentiment as positive, negative, or neutral, influencing trading decisions.
+
+
+
 ### Setup
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/TradingBot_.git
+
