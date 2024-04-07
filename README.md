@@ -2,6 +2,7 @@
 
 ## Project Overview
 MLTrader is an innovative automated trading bot that leverages the power of machine learning to analyze financial news sentiment and execute trades based on the sentiment analysis. It utilizes the FinBERT model, a BERT-based model pre-trained on financial text to assess the sentiment of financial news. This project aims to capitalize on market movements by executing trades with the SPY ETF based on news sentiment, using Alpaca for trade execution and Yahoo Finance for backtesting.
+![image](https://github.com/siddharthprakash1/TradingBot_/assets/92435819/c98f0028-37f1-4644-8c0e-8ae2c2aa2f24)
 
 ## Features
 - **Sentiment Analysis with FinBERT**: Uses the FinBERT model to analyze the sentiment of financial news, categorizing them into positive, negative, or neutral.
